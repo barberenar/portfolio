@@ -1,0 +1,15 @@
+:root {
+  --playfair: "Playfair Display", serif;
+  --poppins: "Poppins", sans-serif;
+}
+
+h1 {
+  color: black;
+  font-family: var(--playfair);
+  font-weight: bold;
+}
+
+p {
+  font-family: var(--poppins);
+  font-weight: normal;
+}
