@@ -65,7 +65,6 @@ p {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
   border-radius: 4px;
-  color: white;
   line-height: 27px;
   font-size: 18px;
   padding: 15px 30px;
