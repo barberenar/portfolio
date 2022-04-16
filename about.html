@@ -26,9 +26,34 @@
       src="https://kit.fontawesome.com/cf8d8f3900.js"
       crossorigin="anonymous"
     ></script>
-    <title>About</title>
+    <meta
+      name="description"
+      content="Patricia is a front-end engineer based in Portugal. About Patricia"
+    />
+
+    <title>Font-end Delevoper - About Patricia Pereira</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img
+            src="/images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Patricia logo" />
+          <img
+            src="/images/logo_small.png"
+            class="logo d-block d-md-none"
+            alt="Patricia logo small"
+        /></a>
+        <ul>
+          <li class="active"><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Patricia">About</a></li>
+          <li><a href="/work.html" title="Patricia's work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Patricia">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -41,13 +66,67 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="" class="btn btn-branding">View all project</a>
+            <a
+              href="/work.html"
+              class="btn btn-branding"
+              title="View All Projects"
+              >View all project</a
+            >
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="/images/profile.png" alt="" class="img-fluid" />
+          <img src="/images/profile.png" alt="Patricia" class="img-fluid" />
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Patricia"
+              >Contact me</a
+            >
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <a
+            href="mailto:patricia@gmail.com"
+            class="email-link"
+            title="Email Patricia"
+            >patricia@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.github.com/patricia"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <i class="fab fa-github"></i></a
+          ><a href="https://www.instagram.com/patricia" target="_blank"
+            ><i class="fab fa-instagram" title="Instagram Profile"></i></a
+          ><a href="https://www.twitter.com/patricia" target="_blank"
+            ><i class="fab fa-twitter" title="Twitter Profile"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Patricia, and it is
+          <a
+            href="https://github.com/barberenar/portfolio"
+            target="_blank"
+            title="Check the code"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
